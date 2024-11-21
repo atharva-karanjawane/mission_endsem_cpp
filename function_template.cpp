@@ -2,7 +2,7 @@
 using namespace std;
 
 // template <typename dtype> dtype func_name(parameters)
-template <class T> T myMax(T x, T y){
+template <typename T> T myMax(T x, T y){
     return (x > y) ? x : y;
 }
 
