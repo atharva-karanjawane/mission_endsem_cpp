@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-/*    
+   
 // Writing in a file
 
     // To Store the input Text
@@ -19,7 +19,7 @@ int main(){
     myfile.close(); // File is closed
     cout<<"File Written Succesfully";
 
-*/
+
 // Reading a File
 
     // Declaring var
@@ -32,17 +32,20 @@ int main(){
         cout<<"Error";
         return 1;
     }
-    obj.get("sample.txt");
     // Looping through each line of file - sample.txt
-/*    
+    
     while (obj.getline(arr1,100))
         cout<<arr1<<endl;
-*/
+
     obj.close();
     cout<<arr1;
     return 0;
 }
 
 // Functions
+
 // 1. open(filename) - used to open file
-// 2. get(file) - used to fetch the character of the file
+// 2. get(var) - used to fetch the character of the var until space , Athar va --> Athar
+// 3. getline(var,max_length) - used to fetch line from variable
+// 4. seekp() - used to go to specific location in file
+// 5. tellp() - used to get the current location of the put pointer in file
