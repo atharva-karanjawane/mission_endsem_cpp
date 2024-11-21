@@ -28,3 +28,6 @@ int main() {
     file.close();
     return 0;
 }
+
+// bad(): Returns true if a serious error occurs in the stream, such as hardware failure or stream corruption. This indicates the stream is no longer usable.
+// good(): Returns true if the stream is in a good state and ready for operations. It checks that no errors have occurred (fail(), eof(), or bad() are all false).
